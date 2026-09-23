@@ -47,4 +47,4 @@ with tab3:
     if uploaded:
         content = uploaded.getvalue().decode("utf-8")
         st.success("File uploaded successfully!")
-        st.code(content[:300] + "...", language="text")
+        st.code(content[:300] + "...", language="text") 
